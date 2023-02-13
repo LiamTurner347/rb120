@@ -1,7 +1,7 @@
 # Implement the given classes so that we get the expected results
 
 class ClassLevel
-  attr_accessor :level, :members
+  attr_reader :level, :members
 
   def initialize(level)
     @level = level
